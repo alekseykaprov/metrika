@@ -3,12 +3,9 @@ html {
 }
 
 body {
-    margin: 0 auto;
-    min-width: 1400px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     background: #FFFFFF;
-    letter-spacing: -0.03em;
 }
 
 @font-face {
@@ -18,47 +15,6 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
-/* ========================================== */
-
-header {
-    margin: 0 auto;
-    height: 26px;
-    width: 1151px;
-    margin-top: 32.5px;
-    margin-bottom: 69px;
-}
-
-.logo {
-    display: inline-block;
-}
-
-
-.menu {
-    float: right;
-}
-
-.menu__list {
-    display: inline-block;
-    margin-left: 58px;
-}
-
-.menu__link {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03em;
-    color:#121212;
-    text-decoration: none;
-}
-
-.menu__list:hover {
-    border-bottom: 1px solid #121212;
-    padding-bottom: 2px;
-    opacity: 0.5;
-}
-
-/* ========================================== */
 
 .container {
     max-width: 1180px;
@@ -70,17 +26,46 @@ section {
     padding-bottom: 150px;
 }
 
-.black-section {
-    width: 100%;
-    background-color: #121212;
-    padding-top: 151px;
-    padding-bottom: 150px;
+/* ========================================== */
+
+.header {
+    margin-top: 33px;
+    margin-bottom: 70px;
 }
 
-h1 {
+.header__logo {
+    display: inline-block;
+}
+
+.header__menu {
+    float: right;
+}
+
+.header__menu-list {
+    display: inline-block;    
+}
+
+.header__menu-link {
+    display: inline-block;
+    margin-left: 57px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color:#121212;
+    text-decoration: none;
+}
+
+.header__menu-link:hover {
+    border-bottom: 1px solid #121212;
+    padding-bottom: 2px;
+    opacity: 0.5;
+}
+
+/* ========================================== */
+
+.interior__title {
     margin-bottom: 30px;
     width: 956px;
-    height: 120px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
@@ -92,7 +77,7 @@ h1 {
 .projects__title {
     margin-bottom: 30px;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 25px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #121212;
@@ -100,8 +85,8 @@ h1 {
 
 /* ========================================== */
 
-.interior {
-    width: 1150px;
+.interior__img {
+    width: 100%;
     height: 500px;
     position: relative;
     background-image: url(../images/interior.png);
@@ -114,9 +99,8 @@ h1 {
     left: 40px;
     bottom: 40px;
     width: 430px;
-    height: 81px;
     font-size: 20px;
-    line-height: 27.32px;
+    line-height: 27px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
 }
@@ -126,8 +110,9 @@ h1 {
 .about__text {
     width: 1048px;
     margin-bottom: 30px;
+    margin-left: 3px;
     font-size: 45px;
-    line-height: 61.47px;
+    line-height: 61px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #121212;
@@ -158,12 +143,15 @@ h1 {
     width: 1150px;
     height: 450px;
     margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .projects__item-title {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-size: 30px;
-    line-height: 40.98px;
+    line-height: 40px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #121212;
@@ -171,7 +159,7 @@ h1 {
 
 .projects__details {
     font-size: 20px;
-    line-height: 27.32px;
+    line-height: 27px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #AD1818;
@@ -186,7 +174,7 @@ h1 {
     border-radius: 5px;
     padding: 56px 0;
     font-size: 30px;
-    line-height: 40.98px;
+    line-height: 40px;
     letter-spacing: -0.03em;
     text-align: center;
     text-decoration: none;
@@ -200,10 +188,18 @@ h1 {
 
 /* ========================================== */
 
+.black-section {
+    width: 100%;
+    background-color: #121212;
+    padding-top: 151px;
+    padding-bottom: 147px;
+}
+
 .services__title {
-    margin-bottom: 30px;
+    margin-bottom: 34px;
+    margin-left: 2px;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 24px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
@@ -215,15 +211,16 @@ h1 {
 }
 
 .services__text {
+    margin-left: 3px;
     font-size: 30px;
-    line-height: 40.98px;
+    line-height: 40px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF; 
 }
 
 .services__list {
-    margin-bottom: 58px;
+    margin-bottom: 60px;
 }
 
 .services__list:last-child {
@@ -235,8 +232,7 @@ h1 {
 .bgimage-section {
     position: relative;
     height: 717px;
-    height: 100vh;    
-    background-image: url(../images/bedroom.png);
+    background-image: url(/images/bedroom.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -248,7 +244,7 @@ h1 {
     bottom: 60px;
     font-size: 30px;
     font-weight: 400;
-    line-height: 40.98px;
+    line-height: 41px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
@@ -258,12 +254,13 @@ h1 {
 
 .contacts-section {
     padding-top: 150px;
+    padding-bottom: 161px;
 }
 
 .contacts__title {
     margin-bottom: 32px;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 24px;
     letter-spacing: -0.03em;
 }
 
@@ -280,7 +277,7 @@ h1 {
     background-position: center;
   }
 
-  .phone {
+.phone {
     display: block;
     margin-bottom: 30px;
     font-size: 60px;
@@ -289,10 +286,9 @@ h1 {
     text-align: left;
     text-decoration: none;
     color: #121212;
+}
 
-  }
-
-  .e-mail {
+.e-mail {
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -303,47 +299,47 @@ h1 {
 
     border-bottom: 2px solid #12121280;
     padding-bottom: 10px;
-  }
+}
 
 /* ========================================== */
 
-  footer {
+footer {
     min-width: 1400px;
     padding: 60px 0 30px 0;
     height: 229px;
     background: #121212;
-  }
+}
 
-  .footer-nav {
+.footer-nav {
     margin: 0 auto;
+    margin-bottom: 87px;
     width: 460px;
     float: none;
-  }
+}
 
-  .nav__link {
+.nav__link {    
     margin-left: 55px;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 24px;
     letter-spacing: -0.03em;
-    text-align: left;
-
+    text-align: center;
     color: #ffffff;
     text-decoration: none;
-  }
+}
 
-  .nav__link:first-child {
+.nav__link:first-child {
     margin-left: 0;
-  } 
+} 
 
-  .nav__link:hover {
+.nav__link:hover {
     opacity: 0.5;
-  } 
+} 
   
-  .footer__title {
-    padding-top: 87px;
+.footer__title {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
     line-height: 27px;
+    letter-spacing: -0.03em;
     opacity: 0.5;
-  }
+}
