@@ -10,11 +10,12 @@
     <title>Метрика</title>
 </head>
 <body>
+
     <header class="header">
-        <div class="container">
-            <div class="header__logo">
+        <div class="container">            
+            <div class="logo">
                 <a href="#">
-                    <img src="images/logo-metrika.png" alt="Изображение логотипа Метрика">
+                    <img class="logo-img" src="images/logo-metrika.png" alt="Изображение логотипа Метрика">
                 </a>
             </div>
             <nav class="header__menu">
@@ -26,7 +27,8 @@
                 </ul>
             </nav>
         </div>
-    </header>    
+    </header>
+    
     <main>
         <section>
             <div class="container">
@@ -55,17 +57,17 @@
                 <ul>
                     <li class="projects__list">
                         <img class="projects__item-image" src="images/redsofa.png" alt="Интерьер с участием красного дивана">
-                        <h2 class="projects__item-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h2>
+                        <h3 class="projects__item-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
                     <li class="projects__list">
                         <img class="projects__item-image" src="images/greenleaves.png" alt="Интерьер уютной комнаты">
-                        <h2 class="projects__item-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h2>
+                        <h3 class="projects__item-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
                     <li class="projects__list">
                         <img class="projects__item-image" src="images/dinnertable.png" alt="Современный интерьер дома">
-                        <h2 class="projects__item-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 м² — 2022</h2>
+                        <h3 class="projects__item-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 м² — 2022</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
                 </ul>                    
@@ -106,20 +108,25 @@
         <section id="contacts" class="contacts-section">
             <div class="container">
                 <h2 class="contacts__title">КОНТАКТЫ</h2>
-                <p><a class="phone" href="tel:+99891 134-24-71">+99891 134-24-71</a></p>
-                <p><a class="e-mail" href="mailto:kaproff.a@yandex.com">kaproff.a@yandex.com</a></p>
+                <ul>
+                    <li><a class="phone" href="tel:+99891 134-24-71">+99891 134-24-71</a></li>
+                    <li><a class="e-mail" href="mailto:kaproff.a@yandex.com">kaproff.a@yandex.com</a></li>
+                </ul>
             </div>
         </section>
     </main>
 
-    <footer>
-        <nav class="footer-nav">
-          <a class="nav__link" href="#about">О НАС</a>
-          <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
-          <a class="nav__link" href="#services">УСЛУГИ</a>
-          <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+    <footer class="footer">
+        <nav>
+          <ul>
+              <li class="footer__nav-list"><a class="footer__nav-link" href="#about">О НАС</a></li>
+              <li class="footer__nav-list"><a class="footer__nav-link" href="#projects">ПРОЕКТЫ</a></li>
+              <li class="footer__nav-list"><a class="footer__nav-link" href="#services">УСЛУГИ</a></li>
+              <li class="footer__nav-list"><a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a></li>
+          </ul>
         </nav>
-        <p class="footer__title">студия дизайна интерьера Метрика — 2024</p>
+        <p class="footer__title">Студия дизайна интерьера Метрика — 2024</p>
     </footer>
+
 </body>
 </html>
