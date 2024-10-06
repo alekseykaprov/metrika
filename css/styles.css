@@ -318,10 +318,14 @@ section {
     text-align: center;
 }
 
+.footer__nav {
+    margin-bottom: 87px;
+}
+
 .footer__nav-list {
     display: inline-block;
     margin-right: 55px;
-    margin-bottom: 87px;
+    /* margin-bottom: 87px; */
 }
 .footer__nav-list:last-child {
     margin-right: 0;
