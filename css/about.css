@@ -1,0 +1,34 @@
+.about__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+}
+
+.about__text {
+    width: 1048px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+}
+
+.about__btn {
+    display: block;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #AD1818;
+
+    font-size: 20px;  
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}

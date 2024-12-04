@@ -1,0 +1,38 @@
+.black-section {
+    width: 100%;
+    background-color: #121212;
+    padding-top: 151px;
+    padding-bottom: 147px;
+}
+
+.services__title {
+    margin-bottom: 34px;
+    margin-left: 2px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.services__image {
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.services__text {
+    margin-left: 3px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF; 
+}
+
+.services__list {
+    margin-bottom: 60px;
+}
+
+.services__list:last-child {
+    margin-bottom: 0;
+}
