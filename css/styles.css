@@ -1,11 +1,11 @@
-@import "header.css";
-@import "interior.css";
-@import "about.css";
-@import "projects.css";
-@import "services.css";
-@import "bgimg.css";
-@import "contacts.css";
-@import "footer.css";
+@import "/css/header.css";
+@import "/css/interior.css";
+@import "/css/about.css";
+@import "/css/projects.css";
+@import "/css/services.css";
+@import "/css/bgimg.css";
+@import "/css/contacts.css";
+@import "/css/footer.css";
 
 html {
     scroll-behavior: smooth;    
