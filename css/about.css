@@ -32,3 +32,41 @@
     text-decoration: none;
     text-align: center;
 }
+
+@media (max-width: 1199px) {
+    section {
+        padding-bottom: 120px;
+    }
+    .about__text {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .about__btn {
+        padding: 20px 40px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 767px) {    
+    .about__title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .about__text {
+        width: 346px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .about__btn {
+        width: 194px;
+        height: 51px;
+        padding: 14.5px 27px;
+        border-radius: 4px; 
+        font-size: 16px;       
+        line-height: 22px;
+        text-align: center;
+    }
+
+}

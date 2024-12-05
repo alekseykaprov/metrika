@@ -34,3 +34,25 @@ body {
 section {
     padding-bottom: 150px;
 }
+
+
+@media (max-width: 1199px) {
+    section {
+        padding-bottom: 120px;
+    }
+    .container {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding-bottom: 80px;
+    }
+    .container {
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+}

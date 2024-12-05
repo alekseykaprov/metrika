@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="icon" href="images/favicon.png" type="image/png">
     <title>Метрика</title>
 </head>
 <body>
 
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <a class="logo" href="#">
                 <img class="logo-img" src="images/logo-metrika.png" alt="Изображение логотипа Метрика">
@@ -25,55 +24,81 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </header> -->
     
     <main>
-        <section>
-            <div class="container">
+        <div class="container">
+            <section>
                 <h1 class="interior__title">Современные и стильные интерьеры для комфортной жизни</h1>
                 <div class="interior__img">
-                    <p class="interior__text">
+                    <p class="interior__img-text">
                         Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов
                     </p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="about">
-            <div class="container">
+            <section id="about">
                 <h2 class="about__title">О НАС</h2>
                 <p class="about__text">
                     Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
                 </p>
                 <a class="about__btn" href="#services">Посмотреть услуги</a>
-            </div>
-        </section>
+            </section>
 
-        <section id="projects">
-            <div class="container">
+            <section id="projects">
                 <h2 class="projects__title">ПРОЕКТЫ</h2>
                 <ul>
                     <li class="projects__list">
-                        <img class="projects__item-image" src="images/redsofa.png" alt="Интерьер с участием красного дивана">
+                        <picture>
+                            <source 
+                                media="(max-width: 500px)" 
+                                srcset="images/redsofa_mobile.png"
+                            >
+                            <source 
+                                media="(max-width: 1199px)" 
+                                srcset="images/redsofa_tablet.png"
+                            >
+                            <img class="projects__item-image" src="images/redsofa.png" alt="Интерьер с участием красного дивана">
+                        </picture>
                         <h3 class="projects__item-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
                     <li class="projects__list">
-                        <img class="projects__item-image" src="images/greenleaves.png" alt="Интерьер уютной комнаты">
+                        <picture>
+                            <source 
+                                media="(max-width: 500px)" 
+                                srcset="images/greenleaves_mobile.png"
+                            >
+                            <source 
+                                media="(max-width: 1199px)" 
+                                srcset="images/greenleaves_tablet.png"
+                            >
+                            <img class="projects__item-image" src="images/greenleaves.png" alt="Интерьер уютной комнаты">
+                        </picture>
                         <h3 class="projects__item-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
                     <li class="projects__list">
-                        <img class="projects__item-image" src="images/dinnertable.png" alt="Современный интерьер дома">
+                        <picture>
+                            <source 
+                                media="(max-width: 500px)" 
+                                srcset="images/dinnertable_mobile.png"
+                            >
+                            <source 
+                                media="(max-width: 1199px)" 
+                                srcset="images/dinnertable_tablet.png"
+                            >
+                            <img class="projects__item-image" src="images/dinnertable.png" alt="Современный интерьер дома">
+                        </picture>
                         <h3 class="projects__item-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 м² — 2022</h3>
                         <a class="projects__details" href="#">Подробнее →</a>
                     </li>
-                </ul>                    
+                </ul>
                 <a class="projects__all-btn" href="#">Смотреть все проекты</a>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section id="services" class="black-section">
+        <!-- <section id="services" class="black-section">
             <div class="container">
                 <h2 class="services__title">УСЛУГИ</h2>
                 <ul>
@@ -103,18 +128,19 @@
             </div>
         </section>
 
-        <section id="contacts" class="contacts-section">
-            <div class="container">
+        <div class="container">
+            <section id="contacts" class="contacts-section">
                 <h2 class="contacts__title">КОНТАКТЫ</h2>
                 <ul>
                     <li><a class="phone" href="tel:+99891 134-24-71">+99891 134-24-71</a></li>
                     <li><a class="e-mail" href="mailto:kaproff.a@yandex.com">kaproff.a@yandex.com</a></li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div> -->
+        
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <nav class="footer__nav">
                 <ul>
@@ -126,7 +152,7 @@
             </nav>
             <p class="footer__title">Студия дизайна интерьера Метрика — 2024</p>
         </div>        
-    </footer>
+    </footer> -->
 
 </body>
 </html>
